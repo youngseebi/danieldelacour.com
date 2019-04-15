@@ -1,0 +1,78 @@
+<!-- www.alsina.xyz | Alchemically bonded by Sebastian Alsina (@youngseebi) -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Page Information -->
+    <title>SEBASTIAN ALSINA</title>
+    <meta name="description" content="PLACEHOLDER" />
+    <meta property="og:url" content="PLACEHOLDER" />
+    <meta property="og:title" content="PLACEHOLDER" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="PLACEHOLDER" />
+    <meta property="og:image" content="PLACEHOLDER" />
+    <meta name="twitter:card" value="summary" />
+    <meta name="twitter:image" value="PLACEHOLDER" />
+    <meta name="twitter:title" value="SEBASTIAN ALSINA" />
+    <meta name="twitter:site" content="@youngseebi" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/master.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://use.fontawesome.com/75be605ddf.js"></script>
+    <script src="js/master.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+</head>
+
+<body>
+
+    <div class="bottom">
+        <h1>DANIEL <span>DELACOUR</span></h1>
+        <div id="timer"></div>
+        <script type="text/javascript">
+            $("#timer")
+                .countdown("2019/05/15", function(event) {
+                    $(this).text(
+                        event.strftime('%D:%H:%M:%S')
+                    );
+                });
+
+            $("#mce-EMAIL").keypress(function(event) {
+                if (event.which == 13) {
+                    event.preventDefault();
+                    $("#mc-embedded-subscribe-form").submit();
+                }
+            });
+        </script>
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+            <form action="https://me.us20.list-manage.com/subscribe/post?u=ee9c070867f418527ef090702&amp;id=ac0eb1c258" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+
+                    <div class="mc-field-group">
+                        <!--                        <label for="mce-EMAIL">Email Address </label>-->
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Be the first to know.">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ee9c070867f418527ef090702_ac0eb1c258" tabindex="-1" value=""></div>
+                    <div class="clear" style="visibility: hidden; opacity: 0; height: 0; width: 0;"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="visibility: hidden; opacity: 0; height: 0; width: 0;"></div>
+                </div>
+            </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+    </div>
+</body>
+
+</html>

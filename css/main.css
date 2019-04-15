@@ -1,0 +1,58 @@
+/* www.alsina.xyz | Alchemically bonded by Sebastian Alsina (@youngseebi) */
+
+/* [==] FONTS [==]*/
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+/*
+ * [==] General [==]
+*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: #1f5d1f;
+    background-image: url(../img/delacour-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 44px;
+    text-align: right;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+h1 span {
+    font-weight: 900;
+}
+
+#timer {
+    font-family: 'digital', sans-serif;
+    font-size: 3em;
+    margin-bottom: 12px;
+}
+
+#mce-EMAIL {
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    text-align: right;
+    border-radius: 3px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-width: 768px) {}
