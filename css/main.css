@@ -21,6 +21,7 @@ body {
     background-image: url(../img/delacour-bg.jpg);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .bottom {
